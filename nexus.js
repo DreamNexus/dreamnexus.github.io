@@ -40,7 +40,6 @@ var servers = {
 					notes:	"Loli+Shota content "+
 						"is included in this server.", warn: 1}, 
 
-	"4KSbxaS":{type:["NSFW"],	notes:	""}, //Spicy YNFG Server
 	"AQMVFDh":{type:["LSD"],	notes:	""}, //DreamEmulator
 	"s4C2Edd":{type:["LSD"],	notes:	""}, //Emulated Dreams
 	"3SBFGGJ":{type:["LSD"],	notes:	""}  //LSD: Dream Emulator Community
