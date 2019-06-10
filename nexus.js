@@ -7,6 +7,7 @@ var servers = {
 	"rCgqaSw":{type:["General"],	notes:""}, //Yume Nikki (yuki ona)
 	"mrAsM7h":{type:["General"],	notes:""}, //Yumes and Nikkis (cool name)
 	"wtBpxrE":{type:["General"],	notes:""}, //Yume Nikki & Fangames
+	
 	"FBkcd9k":{type:["General"],	//Yume 2kki
 					notes:	"The official Yume 2kki server."},
 
