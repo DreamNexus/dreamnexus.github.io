@@ -70,7 +70,7 @@ function loadServer(id) {
 		}
 	}
 	req.open("GET",
-		"https://jsonp.afeld.me/?url="+
+		//"https://jsonp.afeld.me/?url="+
 		"https://discordapp.com/api/v6/invites/"+id+"?with_counts=true",
 		 true
 	); 
