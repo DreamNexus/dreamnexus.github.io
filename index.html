@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Dream Nexus</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="icon" type="image/png" href="box.png" />
+		<script src="nexus.js"></script>
+		<style>
+			body, html {
+				margin: 0;
+				height: 100%; 
+				font-family: Helvetica;
+			}
+
+			.icon {
+				margin: 5px;
+				border-radius: 100%;
+				box-shadow:	0 1px 0 rgba(0,0,0,.2),
+						0 1.5px 0 rgba(0,0,0,.05),
+						0 2px 0 rgba(0,0,0,.05);
+			}
+			.server {
+				display: inline-block;
+				border-radius: 5px;
+				text-align: center;
+				margin: 25px;
+				color: #fff;
+				padding-top: 5px;
+				width: 250px;
+				background:	#202225;
+				box-shadow:	0 2px 10px 0 rgba(0,0,0,.2),
+						0 0 0 1px rgba(32,34,37,.6);
+				
+				vertical-align: top;
+
+				-webkit-animation: fadein 3s; 
+				-moz-animation: fadein 3s; 
+				-ms-animation: fadein 3s; 
+				-o-animation: fadein 3s;
+				animation: fadein 3s;
+			}
+
+			.info {
+				text-align: center;
+				margin-top: 5px;
+				padding-top: 10px;
+				background: #2f3136;
+				color: #b9bbbe;
+				width: 100%;
+				height: 100%;
+				font-size: 10pt;
+			}
+
+			.circle:before {
+				content: '';
+			}
+
+			.circle {
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				border-radius: 100%;
+			}
+
+			.on {
+				background: #43b581;
+			}
+
+			.off {
+				background: #72767d;
+			}
+
+			.notes {
+				padding: 10px;
+				font-size: 9pt;
+				text-align: left;
+			}
+
+			.join {
+				color: #fff;
+				font-size: 13px;
+				background: #43b581;
+				width: 70px;
+				display: inline-block;
+				border-radius: 3px;
+				padding: 10px;
+
+			}
+
+			.join:hover {
+				background: #3ca374;
+			}
+
+			.name {
+				padding: 5px;
+				word-wrap: break-word;
+			}
+
+			.page {
+				position: relative;
+				text-align: center;
+				height: 100%;
+			}
+
+			.loader {
+				border: 10px solid transparent;
+				border-top: 10px solid #b9bbbe; /* Blue */
+				border-radius: 50%;
+				width: 60px;
+				height: 60px;
+				animation: spin 2s linear infinite;
+			}
+
+			#loading {
+				color: #b9bbbe;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			#box {
+				padding: 10px;
+			}
+
+			@keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-moz-keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-webkit-keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-ms-keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@-o-keyframes fadein {
+				from { opacity: 0; }
+				to { opacity: 1; }
+			}
+			@keyframes spin {
+				0% { transform: rotate(0deg); }
+				100% { transform: rotate(360deg); }
+			}
+		</style>
+	</head>
+	<body bgcolor="#36393f">
+		<div class="page">
+			<img src="box.png" id="box">
+			<div id="loading">
+				<div class="loader"></div><br>
+				<span id="loadtxt">Loading...</span>
+			</div>
+			<div id="list"></div>
+		</div>
+	</body>
+</html>
