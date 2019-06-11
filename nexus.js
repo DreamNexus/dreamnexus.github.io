@@ -10,8 +10,8 @@ var servers = {
 	"FBkcd9k":{type:["General"],	//Yume 2kki
 					notes:	"The official Yume 2kki server."},
 
-	"uXeAj4Z":{type:["General",],	//Yume Nikki CZ/SK
-					notes:	"Czech/Slovakian Yume Nikki Community."}, 
+	//"uXeAj4Z":{type:["General",],	//Yume Nikki CZ/SK
+	//				notes:	"Czech/Slovakian Yume Nikki Community."}, 
 
 	"ZSMrjVq":{type:["Dev"],	//Dream Diary Development
 					notes:	"Dream Diary Development chat, the "+
