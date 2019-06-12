@@ -32,16 +32,12 @@ var servers = {
 						"helping you're more than welcome to join."}, 
 
 	"27yCwTF":{type:["NSFW"],	//Uboachan offshoot
-					notes:	"Welcome to the containment server of the "+
-						"containment server, everyone's special "+
-						"here."}, 
+					notes: "May have content NSFW.", warn: 1}, 
 
 	"wPBG9S7":{type:["NSFW"],	//Foodies server Yume Kinki
-					notes: ""},
-					//Warning was removed as there are no
-					//reports of such content on the server
-					//notes:	"Loli+Shota content "+
-					//"is included in this server.", warn: 1}, 
+					notes: "May have content NSFW.", warn: 1},
+					//Warning regarding loli/shota was removed as 
+					//there are no reports of such content on the server.
 
 	"AQMVFDh":{type:["LSD: Dream Emulator"],	notes:	""}, //DreamEmulator
 	"s4C2Edd":{type:["LSD: Dream Emulator"],	notes:	""}, //Emulated Dreams
