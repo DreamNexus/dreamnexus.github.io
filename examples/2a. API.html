@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="nexus.css">
+		<script src="nexus.js"></script>
+		<script>
+			var servers = {
+				'JzuTbJe': { type:["General"], notes:"A cool server" }
+			}
+			function loadServer(id) {
+				var req = new XMLHttpRequest();
+				req.onreadystatechange = function() { 
+					if (this.readyState == 4 && this.status == 200) {
+						saveServer(this.responseText);
+						delete this;
+					} else {
+						if (this.readyState == 4 && this.status != 200) {
+							saveServer(JSON.stringify({
+									"code": "JzuTbJe",
+									"guild": {
+										"name": "Cool server",
+										"icon": "19e191728106cec4bae8e5b343753796",
+										"id": "219625673700933632"
+									},
+									"approximate_member_count": 200,
+									"approximate_presence_count": 100
+								}
+							));
+						}
+					}
+				}
+				req.open("GET",
+					"https://discordapp.com/api/v6/invites/"+id+"?with_counts=true",
+					 true
+				); 
+				req.send(null);
+			}
+			function saveServer(json) {
+				var api = JSON.parse(json);
+				var info = {
+					invite:	api.code,
+					name:	api.guild.name,
+					icon:	"https://cdn.discordapp.com/icons/"+api.guild.id+
+						"/"+api.guild.icon+".png?size=128",
+					count:	api.approximate_member_count,
+					active:	api.approximate_presence_count,
+					notes:	servers[api.code].notes,
+					type:	servers[api.code].type,
+					warn:	servers[api.code].warn,
+				}
+				displayServer(info);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="list"></div>
+	</body>
+</html>
+
