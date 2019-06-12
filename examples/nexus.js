@@ -2,7 +2,6 @@ var servers = {
 	"JzuTbJe":{type:["General"],	notes:""}, //Uboachan
 	"jWb3jUS":{type:["General"],	notes:""}, //Yume Nikki Fan Discord (cool logo)
 	"RrDRrmk":{type:["General"],	notes:""}, //Yume Nikki (some tuber)
-	"2K9d2aZ":{type:["General"],	notes:""}, //Madosnug's Diary
 	"rCgqaSw":{type:["General"],	notes:""}, //Yume Nikki (yuki ona)
 	"mrAsM7h":{type:["General"],	notes:""}, //Yumes and Nikkis (cool name)
 	"wtBpxrE":{type:["General"],	notes:""}, //Yume Nikki & Fangames
@@ -53,8 +52,8 @@ var serversLoaded = 0;
 //e.g loadServer( "JzuTbJe" )
 
 if(localStorage.expiry != Math.floor(Date.now()/1000000)) {
-	localStorage.expiry = Math.floor(Date.now()/1000000);
 	localStorage.clear();
+	localStorage.expiry = Math.floor(Date.now()/1000000);
 }
 
 function loadServer(id) {

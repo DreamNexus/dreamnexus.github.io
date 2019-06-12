@@ -23,20 +23,6 @@
 					if (this.readyState == 4 && this.status == 200) {
 						localStorage[id] = this.responseText;
 						saveServer(this.responseText);
-					} else {
-						if (this.readyState == 4 && this.status != 200) {
-							saveServer(JSON.stringify({
-									"code": "JzuTbJe",
-									"guild": {
-										"name": "Cool server",
-										"icon": "19e191728106cec4bae8e5b343753796",
-										"id": "219625673700933632"
-									},
-									"approximate_member_count": 200,
-									"approximate_presence_count": 100
-								}
-							));
-						}
 					}
 				}
 				req.open("GET",
