@@ -1,5 +1,5 @@
 # Dream Nexus
-A nexus from Yume Nikki Discord servers.
+A list of Yume Nikki Discord servers.
 
 <img src="demo.gif">
 
@@ -7,7 +7,7 @@ A nexus from Yume Nikki Discord servers.
 
 This is a very simple discord server lister and it can be used for any other type of server. If your interested in how it works, and intend on using it. Here's a small tutorial on it. Your going to need a basic understanding of HTML, CSS and Javascript. I recommend you first look through the source before going through this. This should provide a supplementry explanation over the source.
 
-### HTML/CSS - index.html
+### HTML/CSS - Discord-like boxes
 This list is made purely from HTML, CSS and Javascript. This part should explain how the HTML and CSS parts work.
 
 So in order to get our nice discord-like boxes, a simple CSS called `nexus.css` is used. `nexus.css` can be called with the link tag.
@@ -102,7 +102,7 @@ Which finally gets you something like this:
 
 Now all of this, we want to create via Javascript!
 
-### Javascript pt. 1 - The HTML part of Javascript
+### Javascript pt. 1 - Generating HTML
 
 Now to call ``nexus.js``, we can use our ```<script>``` tag like this:
 
@@ -114,7 +114,7 @@ Now to call ``nexus.js``, we can use our ```<script>``` tag like this:
       </head>
     </html>
     
-To prepare the page for nexus.js, we need the ```<div id="list"></div>``` element. This tells ``nexus.js`` where to put the server boxes.
+To prepare the page for ``nexus.js``, we need the ```<div id="list"></div>``` element. This tells ``nexus.js`` where to put the server boxes.
 
     <!doctype html>
     <html lang="en">
@@ -152,7 +152,7 @@ First thing we need is a collection of server invite codes, a basic description 
 
     var servers = {
         'JzuTbJe': { type:["General"], notes:"A cool server" }
-        'JzuTbJe': { type:["General"], notes:"Another cool server" }
+        'jWb3jUS': { type:["General"], notes:"Another cool server" }
     }
     
 Now we want to fetch information regarding this server. Luckily discord has an API for it. Whether this is officially supported, I don't know. But it works now, so we'll stick with it. To do this we'll use an XHR request.
@@ -214,7 +214,7 @@ To avoid this, we're going to want a cache.
 
 ### Javascript pt. 3 - Cache
 
-Since we're loading this into cache, we might as well order the servers from most active to least.
+Since we're loading this into a cache, we might as well order the servers from most active to least active.
 
 So here are the steps:  
 
@@ -270,9 +270,11 @@ We'll throw the caching part into loadServer:
 So now we've set loadServer to check if there is a cached version.
 If so it will load that version, otherwise it will delete the cache and load a new.
 
-Now, we want to sort all the servers from the most active.
-But we need to seperate the servers into their respective categories.
-We don't want an extremely popular NSFW server to come to the top right?
+### Javascript pt. 3 - Categories & Sorting
+
+Now, we want to sort all the servers from the most active to least active.
+But bgbtheir respective categories.
+We don't want an extremely popular NSFW server at the top right?
 
 To do this, we'll make 2 new global variables.
 
@@ -281,8 +283,10 @@ To do this, we'll make 2 new global variables.
 
 This way, we can make an array for each category and sort each of them individually.
 The compare function allows us to sort servers depending on their specific attributes.
+In this case how active they are.
 
-e.g
+e.gbb
+
 	var categories = {
 		General:	[ serverA, serverB ],
 		NSFW:		[ serverC, serverD ]
