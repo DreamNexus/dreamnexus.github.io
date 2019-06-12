@@ -1,7 +1,9 @@
 # Dream Nexus
 A list of Yume Nikki Discord servers.
 
-<img src="demo.gif">
+![example](demo.gif)
+
+**[Demo](http://dreamnexus.github.io/)**
 
 ## How it works
 
