@@ -45,7 +45,7 @@ var servers = {
 	"3SBFGGJ":{type:["LSD: Dream Emulator"],	notes:	""}  //LSD: Dream Emulator Community
 }
 
-var categories = {};
+var categories = {"General":[],"Dev":[],"NSFW":[]};
 var serversLoaded = 0;
 
 //loadServer(id)
