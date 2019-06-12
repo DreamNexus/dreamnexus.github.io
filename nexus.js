@@ -38,8 +38,10 @@ var servers = {
 
 	"wPBG9S7":{type:["NSFW"],	//Foodies server Yume Kinki
 					notes: ""},
-						//notes:	"Loli+Shota content "+
-						//"is included in this server.", warn: 1}, 
+					//Warning was removed as there are no
+					//reports of such content on the server
+					//notes:	"Loli+Shota content "+
+					//"is included in this server.", warn: 1}, 
 
 	"AQMVFDh":{type:["LSD: Dream Emulator"],	notes:	""}, //DreamEmulator
 	"s4C2Edd":{type:["LSD: Dream Emulator"],	notes:	""}, //Emulated Dreams
