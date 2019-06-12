@@ -37,8 +37,9 @@ var servers = {
 						"here."}, 
 
 	"wPBG9S7":{type:["NSFW"],	//Foodies server Yume Kinki
-					notes:	"Loli+Shota content "+
-						"is included in this server.", warn: 1}, 
+					notes: ""},
+						//notes:	"Loli+Shota content "+
+						//"is included in this server.", warn: 1}, 
 
 	"AQMVFDh":{type:["LSD: Dream Emulator"],	notes:	""}, //DreamEmulator
 	"s4C2Edd":{type:["LSD: Dream Emulator"],	notes:	""}, //Emulated Dreams
