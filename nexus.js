@@ -51,9 +51,9 @@ var serversLoaded = 0;
 //Takes in an server invite code, and sends a request for information.
 //e.g loadServer( "JzuTbJe" )
 
-if(localStorage.expiry != Math.floor(Date.now()/1000000)) {
-	localStorage.expiry = Math.floor(Date.now()/1000000);
+if(localStorage.getItem("expiry") != Math.floor(Date.now()/1000000)) {
 	localStorage.clear();
+	localStorage.setItem("expiry", Math.floor(Date.now()/1000000));
 }
 
 function loadServer(id) {
