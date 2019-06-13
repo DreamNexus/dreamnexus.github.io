@@ -11,7 +11,7 @@ var servers = {
 					notes:	"The official Yume 2kki server."},
 
 	"DnvuqFb":{type:["General",],	//Yume Nikki CZ/SK
-					notes:	"Czech/Slovakian Yume Nikki Community."}, 
+					notes:	"Czech/Slovak Yume Nikki Community."}, 
 
 	"aQPeUSB":{type:["Dev"],	//Dream Diary Development
 					notes:	"Dream Diary Development chat, the "+
