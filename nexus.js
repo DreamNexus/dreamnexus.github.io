@@ -1,46 +1,46 @@
 var servers = {
 	"JzuTbJe":{type:["General"],	notes:""}, //Uboachan
-	"jWb3jUS":{type:["General"],	notes:""}, //Yume Nikki Fan Discord (cool logo)
-	"RrDRrmk":{type:["General"],	notes:""}, //Yume Nikki (some tuber)
-	"rCgqaSw":{type:["General"],	notes:""}, //Yume Nikki (yuki ona)
-	"mrAsM7h":{type:["General"],	notes:""}, //Yumes and Nikkis (cool name)
-	"wtBpxrE":{type:["General"],	notes:""}, //Yume Nikki & Fangames
-	"btv7VuW":{type:["General"],	notes:""}, //Madosnug Server
+	"Rv5P4KR":{type:["General"],	notes:""}, //Yume Nikki Fan Discord (cool logo)
+	"AE6NVrj":{type:["General"],	notes:""}, //Yume Nikki (some tuber)
+	"fnHxPhe":{type:["General"],	notes:""}, //Yume Nikki (yuki ona)
+	"pAv4fuS":{type:["General"],	notes:""}, //Yumes and Nikkis (cool name)
+	"dt45FnQ":{type:["General"],	notes:""}, //Yume Nikki & Fangames
+	"btv7VuW":{type:["General"],	notes:""}, //Madosnug Server (OFFICIAL LINK)
 	
-	"FBkcd9k":{type:["General"],	//Yume 2kki
+	"pAv4fuS":{type:["General"],	//Yume 2kki
 					notes:	"The official Yume 2kki server."},
 
-	"uXeAj4Z":{type:["General",],	//Yume Nikki CZ/SK
+	"DnvuqFb":{type:["General",],	//Yume Nikki CZ/SK
 					notes:	"Czech/Slovakian Yume Nikki Community."}, 
 
-	"ZSMrjVq":{type:["Dev"],	//Dream Diary Development
+	"aQPeUSB":{type:["Dev"],	//Dream Diary Development
 					notes:	"Dream Diary Development chat, the "+
 						"chat for making Yume Nikki fangames, "+
 						"general games, and hanging out!"}, 
 
-	"FvRMxkJ":{type:["Dev"],	//Dream Diary Jam 3
+	"DyWQQxN":{type:["Dev"],	//Dream Diary Jam 3
 					notes:	"A server dedicated to the annual "+
 						"Dream Diary Jam."},
  
-	"XQNR4Ns":{type:["General"],	//Speedrunning in the 90s
+	"KjtGdWY":{type:["General"],	//Speedrunning in the 90s
 					notes:	"A server dedicated to Yume Nikki "+
 						"Speedrunning."},
 
-	"ZBdfJHB":{type:["Dev"],	//Patchy Illusion Team
+	"mEr3qY6":{type:["Dev"],	//Patchy Illusion Team
 					notes:	"This server is for active members of "+
 						"the team. If people are interested in "+
 						"helping you're more than welcome to join."}, 
 
-	"27yCwTF":{type:["NSFW"],	//Uboachan offshoot
+	"U72hAJC":{type:["NSFW"],	//Uboachan offshoot
 					notes: "May have content NSFW.", warn: 1}, 
 
-	"wPBG9S7":{type:["NSFW"],	//Foodies server Yume Kinki
+	"BeyT45e":{type:["NSFW"],	//Foodies server Yume Kinki (OFFICIAL LINK)
 					notes: "May have content NSFW.", warn: 1},
 					//Warning regarding loli/shota was removed as 
 					//there are no reports of such content on the server.
 
 	"AQMVFDh":{type:["LSD: Dream Emulator"],	notes:	""}, //DreamEmulator
-	"s4C2Edd":{type:["LSD: Dream Emulator"],	notes:	""}, //Emulated Dreams
+	"sDfZX5f":{type:["LSD: Dream Emulator"],	notes:	""}, //Emulated Dreams
 	"3SBFGGJ":{type:["LSD: Dream Emulator"],	notes:	""}  //LSD: Dream Emulator Community
 }
 
