@@ -32,10 +32,10 @@ var servers = {
 						"helping you're more than welcome to join."}, 
 
 	"U72hAJC":{type:["NSFW"],	//Uboachan offshoot
-					notes: "May have content NSFW.", warn: 1}, 
+					notes: "May have NSFW content.", warn: 1}, 
 
 	"BeyT45e":{type:["NSFW"],	//Foodies server Yume Kinki (OFFICIAL LINK)
-					notes: "May have content NSFW.", warn: 1},
+					notes: "May have NSFW content.", warn: 1},
 					//Warning regarding loli/shota was removed as 
 					//there are no reports of such content on the server.
 
