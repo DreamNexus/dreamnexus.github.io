@@ -1,4 +1,5 @@
 var servers = {
+	"txrUMYv":{type:["General"],	notes:"monoe"}, //yummy nickys, monoe
 	"JzuTbJe":{type:["General"],	notes:""}, //Uboachan
 	"Rv5P4KR":{type:["General"],	notes:""}, //Yume Nikki Fan Discord (cool logo)
 	"AE6NVrj":{type:["General"],	notes:""}, //Yume Nikki (some tuber)
