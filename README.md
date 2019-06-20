@@ -275,7 +275,7 @@ If so it will load that version, otherwise it will delete the cache and load a n
 ### Javascript pt. 3 - Categories & Sorting
 
 Now, we want to sort all the servers from the most active to least active.
-But bgbtheir respective categories.
+But keep them in their respective categories.
 We don't want an extremely popular NSFW server at the top right?
 
 To do this, we'll make 2 new global variables.
