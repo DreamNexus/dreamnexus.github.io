@@ -69,7 +69,7 @@ function loadServer(id) {
 		if (this.readyState == 4 && this.status == 200) {
 			localStorage[id] = this.responseText;
 			saveServer(this.responseText);
-		} else if(this.readyState == 4 && this.status == 429) {
+		} else if(this.readyState == 4 && this.status != 200) {
 			var error = JSON.parse(this.responseText)
 			if(error.code == 10006) {	//Unknown Invite
 				delete servers[id];
