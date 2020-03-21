@@ -7,7 +7,7 @@ const servers = {
   dt45FnQ: { type: ['General'], notes: '' }, // Yume Nikki & Fangames
   btv7VuW: { type: ['General'], notes: '' }, // Madosnug Server (OFFICIAL LINK)
   nT2X5mw: { type: ['General'], notes: '' }, // A small YN discord
-
+  '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
   pAv4fuS: { type: ['General'], notes: 'The official Yume 2kki server.' },
   // Yume 2kki
   DnvuqFb: { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' },
@@ -199,7 +199,7 @@ function displayServer (info) {
 
 window.onload = function () {
   let i = 0
-  for (const id in servers) {
+  for (let id in servers) {
     setTimeout(
       loadServer,
       i++ * Math.random() * 100,
