@@ -8,7 +8,7 @@ const servers = {
   'btv7VuW': { type: ['General'], notes: '' }, // Madosnug Server (OFFICIAL LINK)
   'nT2X5mw': { type: ['General'], notes: '' }, // cult of yume nikki
   '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
-  'gcD3AC': { type: ['General'], notes: 'The official Yume 2kki server.' }, // Yume 2kki
+  'gcD3AC': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
   'aQPeUSB': { type: ['Dev'], notes: 'Dream Diary Development chat, the ' + 'chat for making Yume Nikki fangames, ' +'general games, and hanging out!' }, // Dream Diary Development
   'DyWQQxN': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 3
