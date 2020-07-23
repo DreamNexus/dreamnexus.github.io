@@ -153,11 +153,12 @@ function displayServer (info) {
   const invite = addElement(sub, 'a', { href: 'https://discord.gg/' + info.invite })
   addElement(invite, 'DIV', { className: 'join', textContent: 'Join' })
   
-  if (info.notes) {
-    const notes = addElement(sub, 'DIV', { className: 'notes' })
+  const notes = addElement(sub, 'DIV', { className: 'notes' })
     addElement(notes, 'B', { textContent: 'Category: ' })
     addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
     addElement(notes, 'BR', {})
+  
+  if (info.notes) {
     const note = addElement(notes, 'B', {
       textContent: 'Notes: '
     })
@@ -166,9 +167,10 @@ function displayServer (info) {
   }
   if (info.warn) {
     const warn = addElement(sub, 'B', {
-    textContent: 'Warn: '
+    сlassName: 'notes', textContent: 'Warning: '
     }) 
     const text = addElement(warn, 'FONT', { textContent: 'not safe for work' })
+    warn.style.color = text.style.color = '#f44336'
     addElement(warn, 'BR', {})
   }
 
