@@ -1,14 +1,19 @@
 const servers = {
-  'txrUMYv': { type: ['General'], notes: 'Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
-  'JzuTbJe': { type: ['General'], notes: 'Vomitive shithole.', warn: 1 }, // Uboachan
+  'txrUMYv': { type: ['General'], notes: 'The Official Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
+  'JzuTbJe': { type: ['General'], notes: '', warn: 1 }, // Uboachan
   'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
+  'dVcBByj': { type: ['General'], notes: '' }, // Yumes Nikkis
+  'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
+  '4wTtF8x': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // unban me pussy
+  'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
   'nT2X5mw': { type: ['General'], notes: '' }, // cult of yume nikki
-  '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
-  'gcD3AC': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
+  '9sSxYzn': { type: ['General'], notes: 'The name tells everything by itself.' }, // Church of Sabitsuki
+  'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
+  '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
   'aQPeUSB': { type: ['Dev'], notes: 'Dream Diary Development chat, the ' + 'chat for making Yume Nikki fangames, ' +'general games, and hanging out!' }, // Dream Diary Development
   'DyWQQxN': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 3
