@@ -160,7 +160,6 @@ function displayServer (info) {
   const warn = addElement(notes, 'B', {
   textContent: 'Warn: '
   })
-  warn.style.color = text.style.color = '#f44336'
   const note = addElement(notes, 'B', {
   textContent: 'Notes: '
   })
@@ -174,6 +173,7 @@ function displayServer (info) {
   addElement(warn, 'BR', {})
   }
 
+  warn.style.color = text.style.color = '#f44336'
   document.querySelector('#list').appendChild(server)
 }
 
