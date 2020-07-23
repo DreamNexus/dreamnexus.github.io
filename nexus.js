@@ -166,8 +166,8 @@ function displayServer (info) {
     addElement(notes, 'BR', {})
   }
   if (info.warn) {
-    const warn = addElement(sub, 'B', {
-    сlassName: 'notes', textContent: 'Warning: '
+    const warn = addElement(notes, 'B', {
+      textContent: 'Warning: '
     }) 
     const text = addElement(warn, 'FONT', { textContent: 'May have NSFW content.' })
     warn.style.color = text.style.color = '#f44336'
