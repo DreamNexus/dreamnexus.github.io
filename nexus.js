@@ -1,11 +1,11 @@
 const servers = {
-  'txrUMYv': { type: ['General'], notes: 'monoe' }, // hujle's mental asylum, monoe
-  'JzuTbJe': { type: ['General'], notes: '' }, // Uboachan
-  'Rv5P4KR': { type: ['General'], notes: '' }, // Yume Nikki Fan Discord (cool logo)
+  'txrUMYv': { type: ['General'], notes: 'Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
+  'JzuTbJe': { type: ['General'], notes: '', warn: 1 }, // Uboachan
+  'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
-  'btv7VuW': { type: ['General'], notes: '' }, // Madosnug Server (OFFICIAL LINK)
+  'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
   'nT2X5mw': { type: ['General'], notes: '' }, // cult of yume nikki
   '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
   'gcD3AC': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
@@ -15,8 +15,8 @@ const servers = {
   'vzXT9ds': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 4
   'KjtGdWY': { type: ['General'], notes: 'A server dedicated to Yume Nikki Speedrunning.' }, // Speedrunning in the 90s
   'mEr3qY6': { type: ['Dev'], notes: 'This server is for active members of ' + 'the team. If people are interested in ' + "helping you're more than welcome to join." }, // Patchy Illusion Team
-  'U72hAJC': { type: ['NSFW'], notes: 'May have NSFW content.', warn: 1 }, // Uboachan offshoot
-//'BeyT45e': { type: ['NSFW'], notes: 'May have NSFW content.', warn: 1 }, //Foodies server Yume Kinki (OFFICIAL LINK). Warning regarding loli/shota. Was removed as there are no reports of such content on the server.
+  'U72hAJC': { type: ['NSFW'], notes: '', warn: 1 }, // Uboachan offshoot
+//'BeyT45e': { type: ['NSFW'], notes: 'May have NSFW content.', warn: 1 }, //Foodies server Yume Kinki (OFFICIAL LINK). No, just no.
   'AQMVFDh': { type: ['LSD: Dream Emulator'], notes: '' }, // DreamEmulator
   'sDfZX5f': { type: ['LSD: Dream Emulator'], notes: '' }, // Emulated Dreams
   '3SBFGGJ': { type: ['LSD: Dream Emulator'], notes: '' } // LSD: Dream Emulator Community
@@ -169,7 +169,7 @@ function displayServer (info) {
     const warn = addElement(sub, 'B', {
     сlassName: 'notes', textContent: 'Warning: '
     }) 
-    const text = addElement(warn, 'FONT', { textContent: 'not safe for work' })
+    const text = addElement(warn, 'FONT', { textContent: 'May have NSFW content.' })
     warn.style.color = text.style.color = '#f44336'
     addElement(warn, 'BR', {})
   }
