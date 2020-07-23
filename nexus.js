@@ -154,15 +154,15 @@ function displayServer (info) {
   addElement(invite, 'DIV', { className: 'join', textContent: 'Join' })
 
   const notes = addElement(sub, 'DIV', { className: 'notes' })
-addElement(notes, 'B', { textContent: 'Category: ' })
-addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
-addElement(notes, 'BR', {})
-const warn = addElement(notes, 'B', {
-      textContent: 'Warning: '
+  addElement(notes, 'B', { textContent: 'Category: ' })
+  addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
+  addElement(notes, 'BR', {})
+  const warn = addElement(notes, 'B', {
+  textContent: 'Warning: '
     })
-warn.style.color = text.style.color = '#f44336'
-const note = addElement(notes, 'B', {
-      textContent: 'Notes: '
+  warn.style.color = text.style.color = '#f44336'
+  const note = addElement(notes, 'B', {
+  textContent: 'Notes: '
     })
 
 if (info.notes) {
@@ -172,7 +172,7 @@ if (info.warn) {
   const text = addElement(warn, 'FONT', { textContent: 'not safe for work' }) 
   addElement(warn, 'BR', {})
  }
-
+}
   document.querySelector('#list').appendChild(server)
 }
 
