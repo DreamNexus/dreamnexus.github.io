@@ -1,6 +1,6 @@
 const servers = {
   'txrUMYv': { type: ['General'], notes: 'Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
-  'JzuTbJe': { type: ['General'], notes: '', warn: 1 }, // Uboachan
+  'JzuTbJe': { type: ['General'], notes: 'Vomitive shithole.', warn: 1 }, // Uboachan
   'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
