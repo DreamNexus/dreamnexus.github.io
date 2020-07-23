@@ -173,7 +173,6 @@ function displayServer (info) {
   addElement(warn, 'BR', {})
   }
 
-  warn.style.color = text.style.color = '#f44336'
   document.querySelector('#list').appendChild(server)
 }
 
