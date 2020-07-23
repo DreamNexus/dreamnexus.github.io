@@ -165,7 +165,7 @@ function displayServer (info) {
     addElement(notes, 'BR', {})
   }
   if (info.warn) {
-    const warn = addElement(notes, 'B', {
+    const warn = addElement(sub, 'B', {
     textContent: 'Warn: '
     }) 
     const text = addElement(warn, 'FONT', { textContent: 'not safe for work' })
