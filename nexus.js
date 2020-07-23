@@ -157,16 +157,21 @@ function displayServer (info) {
   addElement(notes, 'B', { textContent: 'Category: ' })
   addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
   addElement(notes, 'BR', {})
-  if (info.notes) {
-    const note = addElement(notes, 'B', {
-      textContent: (info.warn) ? 'Warning: ' : 'Notes: '
+  const warn = addElement(notes, 'B', {
+  textContent: 'Warning: '
     })
-    const text = addElement(notes, 'FONT', { textContent: info.notes })
-    if (info.warn) {
-      note.style.color = text.style.color = '#f44336'
-    }
-    addElement(notes, 'BR', {})
-  }
+  warn.style.color = text.style.color = '#f44336'
+  const note = addElement(notes, 'B', {
+  textContent: 'Notes: '
+    })
+
+  if (info.notes) {
+  const text = addElement(notes, 'FONT', { textContent: info.notes })
+  addElement(notes, 'BR', {})
+  if (info.warn) {
+  const text = addElement(warn, 'FONT', { textContent: 'not safe for work' }) 
+  addElement(warn, 'BR', {})
+ }
 
   document.querySelector('#list').appendChild(server)
 }
