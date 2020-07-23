@@ -5,11 +5,13 @@ const servers = {
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
   'dVcBByj': { type: ['General'], notes: '' }, // Yumes Nikkis
+  'tGCZtRj': { type: ['General'], notes: '' }, // masada spaceship
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
   '4wTtF8x': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // unban me pussy
   'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
+  'rc4fwtf': { type: ['General'], notes: 'YNFG roleplay server.' }, // rp
   'nT2X5mw': { type: ['General'], notes: '' }, // cult of yume nikki
   '9sSxYzn': { type: ['General'], notes: 'The name tells everything by itself.' }, // Church of Sabitsuki
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
