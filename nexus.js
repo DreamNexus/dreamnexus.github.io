@@ -158,12 +158,12 @@ function displayServer (info) {
   addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
   addElement(notes, 'BR', {})
   const warn = addElement(notes, 'B', {
-      textContent: 'Warn: '
-    })
+  textContent: 'Warn: '
+  })
   warn.style.color = text.style.color = '#f44336'
   const note = addElement(notes, 'B', {
-      textContent: 'Notes: '
-    })
+  textContent: 'Notes: '
+  })
 
   if (info.notes) {
   const text = addElement(notes, 'FONT', { textContent: info.notes })
