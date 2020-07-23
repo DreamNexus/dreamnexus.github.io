@@ -152,25 +152,24 @@ function displayServer (info) {
 
   const invite = addElement(sub, 'a', { href: 'https://discord.gg/' + info.invite })
   addElement(invite, 'DIV', { className: 'join', textContent: 'Join' })
-
-  const notes = addElement(sub, 'DIV', { className: 'notes' })
-  addElement(notes, 'B', { textContent: 'Category: ' })
-  addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
-  addElement(notes, 'BR', {})
-  const warn = addElement(notes, 'B', {
-  textContent: 'Warn: '
-  })
-  const note = addElement(notes, 'B', {
-  textContent: 'Notes: '
-  })
-
+  
   if (info.notes) {
-  const text = addElement(notes, 'FONT', { textContent: info.notes })
-  addElement(notes, 'BR', {})
+    const notes = addElement(sub, 'DIV', { className: 'notes' })
+    addElement(notes, 'B', { textContent: 'Category: ' })
+    addElement(notes, 'TEXT', { textContent: info.type.join(', ') })
+    addElement(notes, 'BR', {})
+    const note = addElement(notes, 'B', {
+      textContent: 'Notes: '
+    })
+    const text = addElement(notes, 'FONT', { textContent: info.notes })
+    addElement(notes, 'BR', {})
   }
   if (info.warn) {
-  const text = addElement(warn, 'FONT', { textContent: 'not safe for work' }) 
-  addElement(warn, 'BR', {})
+    const warn = addElement(notes, 'B', {
+    textContent: 'Warn: '
+    }) 
+    const text = addElement(warn, 'FONT', { textContent: 'not safe for work' })
+    addElement(warn, 'BR', {})
   }
 
   document.querySelector('#list').appendChild(server)
