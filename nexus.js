@@ -13,6 +13,7 @@ const servers = {
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
   'rc4fwtf': { type: ['General'], notes: 'YNFG roleplay server.' }, // rp
   'nT2X5mw': { type: ['General'], notes: '' }, // cult of yume nikki
+  'FZApWzM': { type: ['General'], notes: 'A server dedicated to Dreamstuck webcomic.' }, // dreamstuck
   '9sSxYzn': { type: ['General'], notes: 'The name tells everything by itself.' }, // Church of Sabitsuki
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
