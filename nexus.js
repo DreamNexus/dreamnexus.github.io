@@ -11,13 +11,14 @@ const servers = {
   '4wTtF8x': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // unban me pussy
   'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
-  'rc4fwtf': { type: ['General'], notes: 'YNFG roleplay server.' }, // rp
+  'rc4fwtf': { type: ['General'], notes: 'A server dedicated to Yume Nikki and fangames roleplay.' }, // rp
   'nT2X5mw': { type: ['General'], notes: '' }, // cult of yume nikki
   'FZApWzM': { type: ['General'], notes: 'A server dedicated to Dreamstuck webcomic.' }, // dreamstuck
-  '9sSxYzn': { type: ['General'], notes: 'The name tells everything by itself.' }, // Church of Sabitsuki
+  '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
+  'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co.
   'aQPeUSB': { type: ['Dev'], notes: 'Dream Diary Development chat, the ' + 'chat for making Yume Nikki fangames, ' +'general games, and hanging out!' }, // Dream Diary Development
   'DyWQQxN': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 3
   'vzXT9ds': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 4
