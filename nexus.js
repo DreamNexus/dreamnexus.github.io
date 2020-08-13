@@ -4,7 +4,7 @@ const servers = {
   'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
-  'dVcBByj': { type: ['General'], notes: '' }, // Yumes Nikkis
+  '6BVNayu': { type: ['General'], notes: "Server is closed and doesnt't accept new members." }, // Yumes Nikkis
   'tGCZtRj': { type: ['General'], notes: '' }, // masada spaceship
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
