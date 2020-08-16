@@ -5,7 +5,7 @@ const servers = {
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
   '6BVNayu': { type: ['General'], notes: "Server is closed and doesn't accept new members." }, // Yumes Nikkis
-  'tGCZtRj': { type: ['General'], notes: '' }, // masada spaceship
+  'tGCZtRj': { type: ['General'], notes: '', warn: 1 }, // masada spaceship
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
   '4wTtF8x': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // unban me pussy
