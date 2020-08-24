@@ -8,7 +8,7 @@ const servers = {
   'tGCZtRj': { type: ['General'], notes: '', warn: 1 }, // masada spaceship
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
-  'Hvty69K': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // unban me pussy
+ // 'Hvty69K': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // unban me pussy
   'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
   'rc4fwtf': { type: ['General'], notes: 'A server dedicated to Yume Nikki and fangames roleplay.' }, // rp
