@@ -16,6 +16,9 @@ const servers = {
   'FZApWzM': { type: ['General'], notes: 'A server dedicated to Dreamstuck webcomic.' }, // dreamstuck
   '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
+  'fKt7agz': { type: ['General'], notes: '' }, // mados porch
+  'd5T6eW6': { type: ['General'], notes: '', warn: 1 }, // yume nikki wip driscord
+  '48SeJBS': { type: ['General'], notes: '' }, // bunnys containment
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
   'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co.
