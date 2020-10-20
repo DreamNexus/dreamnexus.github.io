@@ -17,6 +17,7 @@ const servers = {
   '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
   'fKt7agz': { type: ['General'], notes: '' }, // mados porch
+  'M5A4qHN': { type: ['General'], notes: '' }, // ponka house
   'd5T6eW6': { type: ['General'], notes: '', warn: 1 }, // yume nikki wip driscord
   '48SeJBS': { type: ['General'], notes: '' }, // bunnys containment
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
@@ -79,7 +80,7 @@ function loadServer (id) {
   }
   req.open('GET',
     // "https://jsonp.afeld.me/?url="+
-    'https://discordapp.com/api/v6/invites/' + id + '?with_counts=true', true
+    'https://discord.com/api/v6/invites/' + id + '?with_counts=true', true
   )
   req.send(null)
 }
