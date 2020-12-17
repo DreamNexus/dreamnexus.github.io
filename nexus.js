@@ -18,6 +18,7 @@ const servers = {
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
   'fKt7agz': { type: ['General'], notes: '' }, // mados porch
   'M5A4qHN': { type: ['General'], notes: '' }, // ponka house
+  'JWBkXtVuQP': { type: ['General'], notes: '' }, // moony's basement
   'd5T6eW6': { type: ['General'], notes: '', warn: 1 }, // yume nikki wip driscord
   '48SeJBS': { type: ['General'], notes: '' }, // bunnys containment
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
