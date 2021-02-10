@@ -1,5 +1,5 @@
 const servers = {
-  'txrUMYv': { type: ['General'], notes: 'The Official Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
+  'txrUMYv': { type: ['General'], notes: 'The Official Chapel of the Monochrome Sisters.', warn: 1 }, // hujle's mental asylum, monoe
   'JzuTbJe': { type: ['General'], notes: '', warn: 1 }, // Uboachan
   'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (some tuber)
@@ -8,7 +8,8 @@ const servers = {
   'tGCZtRj': { type: ['General'], notes: '', warn: 1 }, // masada spaceship
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
- // 'Hvty69K': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // taken down by request 
+  'ppYQyGpPaH': { type: ['General'], notes: '' }, // images with yume nikki bgm dickock
+// 'Hvty69K': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // taken down by request 
   'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
   'rc4fwtf': { type: ['General'], notes: 'A server dedicated to Yume Nikki and fangames roleplay.' }, // rp
@@ -20,7 +21,7 @@ const servers = {
   'M5A4qHN': { type: ['General'], notes: '' }, // ponka house
   'JWBkXtVuQP': { type: ['General'], notes: '' }, // moony's basement
   'd5T6eW6': { type: ['General'], notes: '', warn: 1 }, // yume nikki wip driscord
-  '48SeJBS': { type: ['General'], notes: '' }, // bunnys containment
+// '48SeJBS': { type: ['General'], notes: '' }, // bunnys containment
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
   'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co.
@@ -30,7 +31,7 @@ const servers = {
   'KjtGdWY': { type: ['General'], notes: 'A server dedicated to Yume Nikki Speedrunning.' }, // Speedrunning in the 90s
   'mEr3qY6': { type: ['Dev'], notes: 'This server is for active members of ' + 'the team. If people are interested in ' + "helping you're more than welcome to join." }, // Patchy Illusion Team
   'U72hAJC': { type: ['NSFW'], notes: '', warn: 1 }, // Uboachan offshoot
-//'BeyT45e': { type: ['NSFW'], notes: 'May have NSFW content.', warn: 1 }, //Foodies server Yume Kinki (OFFICIAL LINK). No, just no.
+// 'BeyT45e': { type: ['NSFW'], notes: 'May have NSFW content.', warn: 1 }, //Foodies server Yume Kinki (OFFICIAL LINK). No, just no.
   'AQMVFDh': { type: ['LSD: Dream Emulator'], notes: '' }, // DreamEmulator
   'sDfZX5f': { type: ['LSD: Dream Emulator'], notes: '' }, // Emulated Dreams
   '3SBFGGJ': { type: ['LSD: Dream Emulator'], notes: '' } // LSD: Dream Emulator Community
