@@ -8,7 +8,7 @@ const servers = {
   'tGCZtRj': { type: ['General'], notes: '', warn: 1 }, // masada spaceship
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
-  'ppYQyGpPaH': { type: ['General'], notes: '' }, // images with yume nikki bgm dickock
+  'JwGUfQnMms': { type: ['General'], notes: '' }, // images with yume nikki bgm dickock
  // 'Hvty69K': { type: ['General'], notes: 'YNFG youtuber FukoSan' }, // taken down by request 
   'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
