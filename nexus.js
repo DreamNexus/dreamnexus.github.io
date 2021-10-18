@@ -1,4 +1,5 @@
 const servers = {
+
   'RfJTF4wgEd': { type: ['General'], notes: 'The Official Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
   'JzuTbJe': { type: ['General'], notes: '', warn: 1 }, // Uboachan
   'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
