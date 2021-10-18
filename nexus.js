@@ -9,14 +9,18 @@ const servers = {
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
 //  'JwGUfQnMms': { type: ['General'], notes: '' }, // images with yume nikki bgm dickock
   'S53w7ed': { type: ['General'], notes: 'YNFG walkthrough youtuber Nex' }, // nex
+  'JJyMM7G6ZE': { type: ['General'], notes: '' }, // yume nikki dreamcatchers
+  'PmguJkzrBC': { type: ['General'], notes: '' }, // yume nikki fanclub
   'btv7VuW': { type: ['General'], notes: '', warn: 1 }, // Madosnug Server (OFFICIAL LINK)
   'XyjdVK3j4w': { type: ['General'], notes: 'A server dedicated to Yume Nikki and fangames roleplay.' }, // rp
+  'rc4fwtf': { type: ['General'], notes: "The Cashmere Hall's old server." }, // rp old
   'FZApWzM': { type: ['General'], notes: 'A server dedicated to Dreamstuck webcomic.' }, // dreamstuck
   '9sSxYzn': { type: ['General'], notes: '' }, // Church of Sabitsuki
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
   'fKt7agz': { type: ['General'], notes: '' }, // mados porch
   'JsEBQbFd2c': { type: ['General'], notes: '' }, // yume nikki DISCORD
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
+  '9kYqWvgQru': { type: ['General'], notes: '' }, // roadside bar, branch of 2kki server
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
   'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co.
   'aQPeUSB': { type: ['Dev'], notes: 'Dream Diary Development chat, the ' + 'chat for making Yume Nikki fangames, ' +'general games, and hanging out!' }, // Dream Diary Development
