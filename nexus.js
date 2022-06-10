@@ -1,10 +1,13 @@
 const servers = {
   'cERWpJ6Xbd': { type: ['General'], notes: '' }, // yume nikki battle royale
+  '2UmCeFsGvd': { type: ['Dev'], notes: "YNOProject's exclusive fangame development server." }, // yume nikki battle royale #2
   'zKcTwtwACX': { type: ['General'], notes: 'The Official Chapel of the Monochrome Sisters.' }, // hujle's mental asylum, monoe
   'JzuTbJe': { type: ['General'], notes: '', warn: 1 }, // Uboachan
   'Rv5P4KR': { type: ['General'], notes: '', warn: 1 }, // Yume Nikki Fan Discord (cool logo)
   'AE6NVrj': { type: ['General'], notes: '' }, // Yume Nikki (two rainbows server)
   'fnHxPhe': { type: ['General'], notes: '' }, // Yume Nikki (yuki ona)
+  'es6KEhEsB9': { type: ['General'], notes: '' }, // another spanish speaking yn server
+  'xMp83mcVdc': { type: ['General'], notes: 'Server with cute Yume Nikki emotes and stickers.' }, // Emote Nikki
   '6BVNayu': { type: ['General'], notes: "Server is closed and doesn't accept new members." }, // Yumes Nikkis
   'xU2XjjU': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (spidor)
   'dt45FnQ': { type: ['General'], notes: '' }, // Yume Nikki & Fangames (ChaosX)
@@ -21,12 +24,15 @@ const servers = {
   'fKt7agz': { type: ['General'], notes: '' }, // mados porch
   'JsEBQbFd2c': { type: ['General'], notes: '' }, // yume nikki DISCORD
   '8swBfEw': { type: ['General'], notes: 'The official Yume 2kki server.', warn: 1 }, // Yume 2kki
-  '9kYqWvgQru': { type: ['General'], notes: '' }, // roadside bar, branch of 2kki server
+//  '9kYqWvgQru': { type: ['General'], notes: '' }, // roadside bar, branch of 2kki server, seems to be deleted
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
-  'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co.
+//  'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co. (still exists, no longer public server)
   'aQPeUSB': { type: ['Dev'], notes: 'Dream Diary Development chat, the ' + 'chat for making Yume Nikki fangames, ' +'general games, and hanging out!' }, // Dream Diary Development
-  'DyWQQxN': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 3
-  'vzXT9ds': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 4
+  'DyWQQxN': { type: ['Dev'], notes: 'A server dedicated to the Dream Diary Jam 3.' }, // Dream Diary Jam 3
+  'vzXT9ds': { type: ['Dev'], notes: 'A server dedicated to the Dream Diary Jam 4.' }, // Dream Diary Jam 4
+  'R7yK9V3tp3': { type: ['Dev'], notes: 'A server dedicated to the annual Dream Diary Jam.' }, // Dream Diary Jam 6
+  'uajshx6fMJ': { type: ['Dev'], notes: 'Note Dream development server.' }, // Note Dream
+  'vngGwD6': { type: ['Dev'], notes: 'Uneven Dream development server.' }, // Uneven Dream
   'KjtGdWY': { type: ['General'], notes: 'A server dedicated to Yume Nikki Speedrunning.' }, // Speedrunning in the 90s
   'mEr3qY6': { type: ['Dev'], notes: 'This server is for active members of ' + 'the team. If people are interested in ' + "helping you're more than welcome to join." }, // Patchy Illusion Team
   'U72hAJC': { type: ['NSFW'], notes: '', warn: 1 }, // Uboachan offshoot
