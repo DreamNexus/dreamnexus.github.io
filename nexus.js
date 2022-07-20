@@ -23,7 +23,7 @@ const servers = {
   'xJNyW6P': { type: ['General'], notes: '' }, // the balcony
   'fKt7agz': { type: ['General'], notes: '' }, // mados porch
   'JsEBQbFd2c': { type: ['General'], notes: '' }, // yume nikki DISCORD
-  'tmTgXBpGux': { type: ['General'], notes: 'The official Yume 2kki server.'}, // Yume 2kki
+  'uTNk5cbk': { type: ['General'], notes: 'The official Yume 2kki server.'}, // Yume 2kki
 //  '9kYqWvgQru': { type: ['General'], notes: '' }, // roadside bar, branch of 2kki server, seems to be deleted
   'DnvuqFb': { type: ['General'], notes: 'Czech/Slovak Yume Nikki Community.' }, // Yume Nikki CZ/SK
 //  'rEAPW3b': { type: ['General'], notes: 'Spanish-speaking Yume Nikki Community.' }, // gatobot and co. (still exists, no longer public server)
